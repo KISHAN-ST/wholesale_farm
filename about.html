@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Golden Farm</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-leaf"></i> Golden<span>Farm</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html" class="active">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle">ENG | HI</button>
+        <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Story</h1>
+      <p>A legacy of quality poultry farming since 2016</p>
+    </div>
+  </section>
+
+  <!-- About Content -->
+  <section class="section-padding">
+    <div class="container about-content">
+      <div class="about-text">
+        <h2 style="font-size: 2.2rem; margin-bottom: 20px;">Rooted in Tradition, Powered by Innovation</h2>
+        <p>Welcome to Golden Farm. For over a decade, we have been at the forefront of the poultry industry, providing top-tier live birds, nutritious feed, and state-of-the-art farm equipment to farmers across the country.</p>
+        <p>Our journey started with a simple belief: healthy birds produce the best results. That's why we maintain strict bio-security measures and employ modern farming techniques to ensure that every hen, cage, and sack of feed that leaves our farm meets the highest standards of quality.</p>
+        <p>Whether you are a small-scale farmer looking to start your journey or a large enterprise needing bulk supplies, we are here to support your growth with direct-from-farm pricing and expert guidance.</p>
+        
+        <div style="margin-top: 30px; display: flex; gap: 20px;">
+          <div style="background: var(--primary-bg); padding: 15px; border-radius: 8px; flex: 1; text-align: center; border: 1px solid #e0d8c8;">
+            <i class="fa-solid fa-shield-halved" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 5px;">Certified Quality</h4>
+            <p style="font-size: 0.9rem; color: #666;">100% vaccinated birds & lab-tested feed.</p>
+          </div>
+          <div style="background: var(--primary-bg); padding: 15px; border-radius: 8px; flex: 1; text-align: center; border: 1px solid #e0d8c8;">
+            <i class="fa-solid fa-handshake" style="font-size: 2rem; color: var(--primary-color); margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 5px;">Trusted Partner</h4>
+            <p style="font-size: 0.9rem; color: #666;">Over 5,000 farmers rely on us daily.</p>
+          </div>
+        </div>
+      </div>
+      <div class="about-image">
+        <img src="assets/hero.png" alt="Golden Farm Facility">
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section-padding" style="background-color: white;">
+    <div class="container">
+      <div class="section-title">
+        <h2>What Farmers Say</h2>
+        <p>Trusted by the community</p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
+        <div style="background: var(--primary-bg); padding: 30px; border-radius: var(--border-radius); position: relative;">
+          <i class="fa-solid fa-quote-left" style="position: absolute; top: 20px; right: 20px; font-size: 3rem; color: var(--accent-color); opacity: 0.2;"></i>
+          <p style="font-style: italic; margin-bottom: 20px; position: relative; z-index: 1;">"Golden Farm provided us with excellent quality layer hens. Their after-sales support and farm management tips were invaluable for our new setup."</p>
+          <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="width: 50px; height: 50px; background: #ccc; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">R</div>
+            <div>
+              <h4 style="margin-bottom: 0;">Rajesh Kumar</h4>
+              <p style="font-size: 0.85rem; color: #666; margin: 0;">Poultry Farm Owner, Punjab</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="background: var(--primary-bg); padding: 30px; border-radius: var(--border-radius); position: relative;">
+          <i class="fa-solid fa-quote-left" style="position: absolute; top: 20px; right: 20px; font-size: 3rem; color: var(--accent-color); opacity: 0.2;"></i>
+          <p style="font-style: italic; margin-bottom: 20px; position: relative; z-index: 1;">"I've been buying feed and cages from them for 3 years now. The quality is consistent, and the direct farm pricing really helps my margins."</p>
+          <div style="display: flex; align-items: center; gap: 15px;">
+            <div style="width: 50px; height: 50px; background: #ccc; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; color: white;">A</div>
+            <div>
+              <h4 style="margin-bottom: 0;">Amit Singh</h4>
+              <p style="font-size: 0.85rem; color: #666; margin: 0;">Commercial Farmer, Haryana</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAB -->
+  <a href="https://wa.me/1234567890" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        &copy; 2026 Golden Farm. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

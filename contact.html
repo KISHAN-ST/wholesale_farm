@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Golden Farm</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <i class="fa-solid fa-leaf"></i> Golden<span>Farm</span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="lang-toggle">ENG | HI</button>
+        <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Get in Touch</h1>
+      <p>We're here to answer any questions about our products or bulk orders</p>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section-padding">
+    <div class="container contact-wrapper">
+      
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p style="color: #666; margin-bottom: 30px;">Feel free to reach out to us directly or visit our farm. We're open Monday to Saturday, 8:00 AM to 6:00 PM.</p>
+        
+        <div class="contact-method">
+          <i class="fa-solid fa-location-dot"></i>
+          <div>
+            <h4>Farm Address</h4>
+            <p>123 Golden Farm Road,<br>Green Valley Agricultural Area,<br>District - XYZ, State - 123456</p>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <i class="fa-solid fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+91 98765 43210<br>+91 91234 56789</p>
+          </div>
+        </div>
+
+        <div class="contact-method">
+          <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
+          <div>
+            <h4>WhatsApp Support</h4>
+            <p>Available 24/7 for urgent queries</p>
+            <a href="https://wa.me/1234567890" target="_blank" style="color: var(--primary-color); font-weight: 600; text-decoration: underline;">Chat with us</a>
+          </div>
+        </div>
+        
+        <div class="contact-method">
+          <i class="fa-solid fa-envelope"></i>
+          <div>
+            <h4>Email Address</h4>
+            <p>hello@goldenfarm.com<br>sales@goldenfarm.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enquiry Form -->
+      <div class="contact-form">
+        <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Send an Enquiry</h3>
+        <form id="enquiryForm" action="#" method="POST" onsubmit="submitForm(event)">
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="product">Product Interest</label>
+            <select id="product" class="form-control" required style="cursor: pointer;">
+              <option value="" disabled selected>Select a product category</option>
+              <option value="Live Hens">Live Hens</option>
+              <option value="Poultry Cages">Poultry Cages</option>
+              <option value="Feed">Nutritional Feed</option>
+              <option value="Equipment">Farm Equipment</option>
+              <option value="Bulk Order">Bulk Order / Multiple</option>
+            </select>
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message / Requirements</label>
+            <textarea id="message" class="form-control" placeholder="Please specify quantity or any specific requirements..." required></textarea>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem; padding: 15px;">Send via WhatsApp</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Map Section -->
+  <section style="height: 400px; width: 100%;">
+    <!-- Embed a placeholder Google Map (Using a generic embed for demonstration) -->
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112111.45892556272!2d77.12351283726715!3d28.58330752538104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1689100000000!5m2!1sen!2sin" 
+      width="100%" 
+      height="100%" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <!-- FAB -->
+  <a href="https://wa.me/1234567890" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
+
+  <!-- Footer -->
+  <footer style="margin-top: 0;">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        &copy; 2026 Golden Farm. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function submitForm(e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value;
+      const phone = document.getElementById('phone').value;
+      const product = document.getElementById('product').value;
+      const message = document.getElementById('message').value;
+      
+      const text = `Hello Golden Farm!%0A%0A*New Enquiry*%0A*Name:* ${name}%0A*Phone:* ${phone}%0A*Interest:* ${product}%0A*Message:* ${message}`;
+      const whatsappUrl = `https://wa.me/1234567890?text=${text}`;
+      
+      window.open(whatsappUrl, '_blank');
+    }
+  </script>
+</body>
+</html>
