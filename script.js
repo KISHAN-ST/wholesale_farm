@@ -11,15 +11,31 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Simple Language Toggle Placeholder
-  const langToggle = document.querySelector('.lang-toggle');
-  if (langToggle) {
-    let currentLang = 'EN';
-    langToggle.addEventListener('click', () => {
-      currentLang = currentLang === 'EN' ? 'HI' : 'EN';
-      langToggle.textContent = currentLang === 'EN' ? 'ENG | HI' : 'HI | ENG';
-      // In a real app, this would swap text content or redirect to a localized route
-      console.log(`Language switched to ${currentLang}`);
+  // Mobile Menu Toggle
+  const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+  const navLinks = document.querySelector('.nav-links');
+
+  if (mobileMenuBtn && navLinks) {
+    mobileMenuBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+      const icon = mobileMenuBtn.querySelector('i');
+      if (navLinks.classList.contains('active')) {
+        icon.classList.remove('fa-bars');
+        icon.classList.add('fa-xmark');
+      } else {
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      }
+    });
+
+    // Close menu when a link is clicked
+    navLinks.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        navLinks.classList.remove('active');
+        const icon = mobileMenuBtn.querySelector('i');
+        icon.classList.remove('fa-xmark');
+        icon.classList.add('fa-bars');
+      });
     });
   }
 });

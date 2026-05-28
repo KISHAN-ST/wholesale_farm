@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shop | Golden Farm</title>
+  <title>Shop | S K Groups</title>
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
   <header>
     <div class="container nav-container">
       <a href="index.html" class="logo">
-        <i class="fa-solid fa-leaf"></i> Golden<span>Farm</span>
+        <img src="images/logo.svg" alt="S K Groups Logo" style="height: 60px;">
       </a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
@@ -25,10 +25,10 @@
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact</a>
       </nav>
-      <div class="nav-actions">
-        <button class="lang-toggle">ENG | HI</button>
-        <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
-      </div>
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle navigation" style="display: none; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer;">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </header>
 
@@ -45,101 +45,148 @@
     <div class="container">
       
       <!-- Filters -->
-      <div class="shop-filters">
-        <button class="filter-btn active" data-filter="all">All Products</button>
-        <button class="filter-btn" data-filter="hens">Live Hens</button>
-        <button class="filter-btn" data-filter="cages">Poultry Cages</button>
-        <button class="filter-btn" data-filter="feed">Feed & Nutrition</button>
-        <button class="filter-btn" data-filter="equipment">Farm Equipment</button>
+      <!-- Filters -->
+      <div class="shop-filters" style="display: none;">
+        <!-- Filters hidden as we have a unified list now -->
       </div>
 
       <!-- Product Grid -->
       <div class="product-grid">
-        <!-- Product 1 -->
-        <div class="product-card" data-category="hens">
-          <img src="assets/hen.png" alt="BV-300 Layer Hen" class="product-img">
-          <div class="product-info">
-            <div class="product-category">Live Hens</div>
-            <h3>BV-300 Layer Hen</h3>
-            <div class="product-price">₹350 / bird</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">High egg-producing breed, 16 weeks old, fully vaccinated.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20the%20BV-300%20Layer%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
-          </div>
-        </div>
-
-        <!-- Product 2 -->
-        <div class="product-card" data-category="cages">
-          <img src="assets/cage.png" alt="A-Frame Layer Cage" class="product-img">
-          <div class="product-info">
-            <div class="product-category">Poultry Cages</div>
-            <h3>A-Frame Layer Cage (3 Tier)</h3>
-            <div class="product-price">₹4,500 / unit</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Galvanized iron cages, capacity of 90-120 birds.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20the%20A-Frame%20Layer%20Cage" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
-          </div>
-        </div>
-
-        <!-- Product 3 -->
-        <div class="product-card" data-category="feed">
-          <img src="assets/feed.png" alt="Layer Phase 1 Feed" class="product-img">
-          <div class="product-info">
-            <div class="product-category">Feed & Nutrition</div>
-            <h3>Premium Layer Feed (50kg)</h3>
-            <div class="product-price">₹1,850 / bag</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Optimum nutrition for peak laying period. High protein.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20Premium%20Layer%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
-          </div>
-        </div>
-
-        <!-- Product 4 -->
-        <div class="product-card" data-category="hens">
-          <img src="assets/hen.png" alt="Cobb 500 Broiler" class="product-img">
-          <div class="product-info">
-            <div class="product-category">Live Hens</div>
-            <h3>Cobb 500 Broiler Chicks</h3>
-            <div class="product-price">₹45 / chick</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Day-old healthy chicks, excellent feed conversion ratio.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20Cobb%20500%20Broiler" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
-          </div>
-        </div>
-
-        <!-- Product 5 -->
-        <div class="product-card" data-category="equipment">
-          <div style="height:250px; background:#e0d8c8; display:flex; align-items:center; justify-content:center; color:var(--primary-color); font-size:4rem;" class="product-img">
-            <i class="fa-solid fa-temperature-half"></i>
-          </div>
-          <div class="product-info">
-            <div class="product-category">Farm Equipment</div>
-            <h3>Smart Farm Thermostat</h3>
-            <div class="product-price">₹2,200 / unit</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Digital IT supply for monitoring farm temperature automatically.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20Smart%20Farm%20Thermostat" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
-          </div>
-        </div>
         
-        <!-- Product 6 -->
-        <div class="product-card" data-category="feed">
-          <img src="assets/feed.png" alt="Broiler Finisher" class="product-img">
+        <!-- Item 1 -->
+        <div class="product-card" data-category="hens">
+          <img src="images/bv380.png" alt="BV380 Hen" class="product-img">
           <div class="product-info">
-            <div class="product-category">Feed & Nutrition</div>
-            <h3>Broiler Finisher Pellets (50kg)</h3>
-            <div class="product-price">₹2,100 / bag</div>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px;">Designed for rapid weight gain in the final weeks.</p>
-            <a href="https://wa.me/1234567890?text=I'm%20interested%20in%20Broiler%20Finisher%20Pellets" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+            <h3 style="margin-top: 15px;">BV380 Hen</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Premium quality BV380 hens available.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20BV380%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
           </div>
         </div>
+
+        <!-- Item 2 -->
+        <div class="product-card" data-category="hens">
+          <img src="images/bv300.png" alt="Bv300 Hen" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Bv300 Hen</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Premium quality BV300 hens available.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Bv300%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="product-card" data-category="cages">
+          <img src="images/cage.jpeg" alt="Layer cages" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Layer cages</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Durable and space-efficient layer cages.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Layer%20cages" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="product-card" data-category="equipment">
+          <div style="height:250px; background:var(--primary-bg); display:flex; align-items:center; justify-content:center; color:var(--primary-color); font-size:4rem;" class="product-img">
+            <i class="fa-solid fa-tractor"></i>
+          </div>
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Poultry equipments</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">All kinds of essential poultry equipments.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20equipments" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Poultry Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Poultry Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Nutrient-rich feed for poultry.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 6 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Cattle Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Cattle Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">High-quality feed for cattle.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Cattle%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 7 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Sheep and Goat Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Sheep and Goat Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Nutritious feed for sheep and goats.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Sheep%20and%20Goat%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 8 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Pig Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Pig Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Quality feed formulated for pigs.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Pig%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 9 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Broiler Ready Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Broiler Ready Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Ready-to-use feed for broilers.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Broiler%20Ready%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 10 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Layer Ready Feed" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Layer Ready Feed</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Optimal ready feed for layers.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Layer%20Ready%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 11 -->
+        <div class="product-card" data-category="feed">
+          <img src="assets/feed.png" alt="Concentrate" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">Concentrate</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">High-quality feed concentrate.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Concentrate" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
+        <!-- Item 12 -->
+        <div class="product-card" data-category="services">
+          <img src="images/egg.jpeg" alt="Poultry services" class="product-img">
+          <div class="product-info">
+            <h3 style="margin-top: 15px;">All kinds of Poultry services etc...</h3>
+            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Comprehensive farm management and support.</p>
+            <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20services" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire Now</a>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
 
   <!-- FAB -->
-  <a href="https://wa.me/1234567890" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
+  <a href="https://wa.me/919964923811" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
 
   <!-- Footer -->
   <footer>
     <div class="container">
       <div class="footer-bottom" style="border-top: none; padding-top: 0;">
-        &copy; 2026 Golden Farm. All rights reserved.
+        &copy; 2026 S K Groups. All rights reserved.
       </div>
     </div>
   </footer>

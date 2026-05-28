@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Golden Farm | Premium Poultry Solutions</title>
+  <title>S K Groups | Premium Poultry Solutions</title>
   <meta name="description" content="Direct from farm poultry solutions. Buy live hens, premium cages, nutritious feed, and modern farming equipment.">
   
   <!-- Fonts -->
@@ -22,7 +22,7 @@
   <header>
     <div class="container nav-container">
       <a href="index.html" class="logo">
-        <i class="fa-solid fa-leaf"></i> Golden<span>Farm</span>
+        <img src="images/logo.svg" alt="S K Groups Logo" style="height: 60px;">
       </a>
       
       <nav class="nav-links">
@@ -32,10 +32,10 @@
         <a href="contact.html">Contact</a>
       </nav>
       
-      <div class="nav-actions">
-        <button class="lang-toggle">ENG | HI</button>
-        <a href="https://wa.me/1234567890" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Chat Now</a>
-      </div>
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn" aria-label="Toggle navigation" style="display: none; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer;">
+        <i class="fa-solid fa-bars"></i>
+      </button>
     </div>
   </header>
 
@@ -43,8 +43,8 @@
   <section class="hero">
     <div class="hero-overlay"></div>
     <div class="container hero-content">
-      <h1>Farm Fresh,<br>Delivered Directly</h1>
-      <p>Premium quality hens, cages, feed, and farm equipment for modern poultry businesses. Direct from our farm to yours.</p>
+      <h1>Greetings from<br>S K Groups</h1>
+      <p>Avaragolla, Davanagere, Karnataka. We are BV380 and BV300 Birds, Cages, Feed supplier and all kinds of poultry services.</p>
       <div class="hero-buttons">
         <a href="shop.html" class="btn btn-accent">Explore Products</a>
         <a href="contact.html" class="btn btn-primary" style="background: white; color: var(--primary-color);">Bulk Enquiry</a>
@@ -60,38 +60,67 @@
         <p>Comprehensive solutions for all your poultry farming needs</p>
       </div>
       
-      <div class="category-grid">
-        <a href="shop.html?category=hens" class="cat-card">
-          <div class="cat-img">
-            <img src="assets/hen.png" alt="Live Hens">
-          </div>
-          <h3>Live Hens</h3>
-          <p>Healthy, vaccinated layers and broilers</p>
-        </a>
-        
-        <a href="shop.html?category=cages" class="cat-card">
-          <div class="cat-img">
-            <img src="assets/cage.png" alt="Poultry Cages">
-          </div>
-          <h3>Modern Cages</h3>
-          <p>Durable, space-efficient housing solutions</p>
-        </a>
-        
-        <a href="shop.html?category=feed" class="cat-card">
-          <div class="cat-img">
-            <img src="assets/feed.png" alt="Poultry Feed">
-          </div>
-          <h3>Premium Feed</h3>
-          <p>Nutrient-rich feed for optimal growth</p>
-        </a>
-        
-        <a href="shop.html?category=equipment" class="cat-card">
-          <div class="cat-img">
-            <div style="background:#e0d8c8; height:100%; display:flex; align-items:center; justify-content:center; color:var(--primary-color); font-size:3rem;"><i class="fa-solid fa-tractor"></i></div>
-          </div>
-          <h3>Farm Equipment</h3>
-          <p>Tools and IT supplies for farm management</p>
-        </a>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px;">
+        <!-- Item 1 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">BV380 Hen</h3>
+        </div>
+        <!-- Item 2 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Bv300 Hen</h3>
+        </div>
+        <!-- Item 3 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Layer cages</h3>
+        </div>
+        <!-- Item 4 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Poultry equipments</h3>
+        </div>
+        <!-- Item 5 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Poultry Feed</h3>
+        </div>
+        <!-- Item 6 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Cattle Feed</h3>
+        </div>
+        <!-- Item 7 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Sheep and Goat Feed</h3>
+        </div>
+        <!-- Item 8 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Pig Feed</h3>
+        </div>
+        <!-- Item 9 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Broiler Ready Feed</h3>
+        </div>
+        <!-- Item 10 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Layer Ready Feed</h3>
+        </div>
+        <!-- Item 11 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">Concentrate</h3>
+        </div>
+        <!-- Item 12 -->
+        <div style="background: white; padding: 20px; border-radius: var(--border-radius); box-shadow: var(--shadow-subtle); display: flex; align-items: center; gap: 15px; border-left: 4px solid var(--primary-color);">
+           <i class="fa-solid fa-check-circle" style="color: var(--accent-color); font-size: 1.5rem;"></i>
+           <h3 style="margin: 0; font-size: 1.1rem; color: var(--text-dark);">All kinds of Poultry services etc...</h3>
+        </div>
       </div>
     </div>
   </section>
@@ -100,7 +129,7 @@
   <section class="trust-section">
     <div class="container trust-flex">
       <div class="trust-content">
-        <h2>Why Choose Golden Farm?</h2>
+        <h2>Why Choose S K Groups?</h2>
         <p>With over 10 years of experience, we provide end-to-end poultry solutions. We believe in quality, transparency, and supporting farmers.</p>
         <ul>
           <li><i class="fa-solid fa-check-circle"></i> 100% Vaccinated & Healthy Birds</li>
@@ -132,7 +161,7 @@
   </section>
 
   <!-- Floating WhatsApp Button -->
-  <a href="https://wa.me/1234567890" target="_blank" class="fab" aria-label="Chat on WhatsApp">
+  <a href="https://wa.me/919964923811" target="_blank" class="fab" aria-label="Chat on WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 
@@ -141,7 +170,7 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-col">
-          <h3>Golden Farm</h3>
+          <h3>S K Groups</h3>
           <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and reliable.</p>
           <div class="social-links">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
@@ -161,26 +190,26 @@
         </div>
         
         <div class="footer-col">
-          <h3>Categories</h3>
+          <h3>Our Products</h3>
           <ul>
-            <li><a href="shop.html">Live Hens</a></li>
-            <li><a href="shop.html">Poultry Cages</a></li>
-            <li><a href="shop.html">Nutritional Feed</a></li>
-            <li><a href="shop.html">Farm Equipment</a></li>
+            <li><a href="shop.html">BV380 & BV300 Hens</a></li>
+            <li><a href="shop.html">Layer Cages</a></li>
+            <li><a href="shop.html">Premium Feeds</a></li>
+            <li><a href="shop.html">Poultry Equipments</a></li>
           </ul>
         </div>
         
         <div class="footer-col">
           <h3>Contact Info</h3>
           <ul>
-            <li><i class="fa-solid fa-location-dot"></i> 123 Farm Road, Green Valley, Dist - XYZ</li>
-            <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
-            <li><i class="fa-solid fa-envelope"></i> hello@goldenfarm.com</li>
+            <li><i class="fa-solid fa-location-dot"></i> GV6G+5JH, Doggalli Avaragolla Rd, Avaragolla, Karnataka 577589</li>
+            <li><i class="fa-solid fa-phone"></i> +91 99649 23811</li>
+            <li><i class="fa-solid fa-envelope"></i> skgroups@example.com</li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        &copy; 2026 Golden Farm. All rights reserved.
+        &copy; 2026 S K Groups. All rights reserved.
       </div>
     </div>
   </footer>
