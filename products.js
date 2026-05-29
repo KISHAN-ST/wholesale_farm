@@ -279,5 +279,240 @@ const productsData = {
       "Wide-mouth container design allows for fast, easy cleaning and sanitization",
       "Vibrant red base naturally stimulates feeding and drinking behaviors"
     ]
+  },
+  "deluxe-drinker": {
+    "name": "Deluxe Drinker",
+    "category": "Automatic Poultry Water Drinker",
+    "shortDescription": "Automatic nipple hanging drinker designed for 50-80 birds, made from high-quality virgin plastic.",
+    "longDescription": "The Deluxe Drinker is a commercial-grade automatic poultry water drinker designed to provide a constant supply of hygienic drinking water for grower birds. It is built from high-strength virgin plastic and features a nipple drinking mechanism that prevents water contamination and minimizes wastage. Equipped with hanging accessories including hook, clamp, and rope for easy installation.",
+    "image": "images/jumbo_drinker.jpeg",
+    "whatsappText": "I'm interested in Deluxe Drinker",
+    "specifications": {
+      "Bird Capacity": "50 - 80 Birds",
+      "Water System": "Auto Filling",
+      "Drinker Type": "Nipple Drinker",
+      "Material": "High-Quality Virgin Plastic",
+      "Mounting": "Hanging Type",
+      "Accessories": "Hook, Clamp & Rope",
+      "Application": "Grower Birds",
+      "Maintenance": "Easy Cleaning"
+    },
+    "keyFeatures": [
+      "Automatic water refilling system ensures constant water supply",
+      "Nipple-based drinking mechanism keeps water hygienic and dust-free",
+      "Substantially reduces litter moisture by minimizing water wastage",
+      "Sturdy hanging design keeps waterer off the ground",
+      "UV-stabilized, weather-resistant plastic structure",
+      "Quick installation and hassle-free sanitization"
+    ]
+  },
+  "grower-drinker-3l": {
+    "name": "Grower Drinker - 3 Liter",
+    "category": "Poultry Water Drinker",
+    "shortDescription": "Semi-automatic 3L drinker with a 2-way stand and lock system, ideal for 50-70 grower birds.",
+    "longDescription": "Grower Drinker 3 Liter is a highly durable semi-automatic watering solution designed specifically for grower birds in broiler farms. Equipped with a stable 2-way plastic stand and secure locking mechanism, it prevents accidental tipping and spilling. The 3-liter capacity ensures birds remain hydrated with minimal manual intervention.",
+    "image": "images/grower_drinker_3l.jpeg",
+    "whatsappText": "I'm interested in Grower Drinker 3 Liter",
+    "specifications": {
+      "Bird Capacity": "50 - 70 Birds",
+      "Water Capacity": "3 Liters",
+      "Type": "Semi-Automatic",
+      "Material": "High-Quality Plastic",
+      "Stand Type": "2-Way Plastic Stand",
+      "Locking System": "Secure Twist Lock",
+      "Application": "Grower Birds in Broiler Farms"
+    },
+    "keyFeatures": [
+      "Convenient 3-liter storage capacity",
+      "Suitable for flock sizes of 50 to 70 birds",
+      "Stable 2-way stand keeps the drinking tray elevated and clean",
+      "Easy twist-lock design makes refilling and assembly quick",
+      "Made of high-density plastic that withstands farm usage",
+      "Reduces mud accumulation and keeps litter dry"
+    ]
+  },
+  "jumbo-drinker": {
+    "name": "Jumbo Drinker",
+    "category": "Poultry Water Drinker",
+    "shortDescription": "Auto-filling nipple drinker for 50-70 grower and breeder birds, includes hanging accessories.",
+    "longDescription": "The Jumbo Drinker is a professional automatic watering device engineered for commercial grower and breeder houses. Operating on a gravity-fed or low-pressure auto-filling system, it uses a nipple-activated valve to distribute clean water on demand. It comes with hanging hooks, clamps, and adjusters to simplify height adjustment as birds grow.",
+    "image": "images/jumbo_drinker.jpeg",
+    "whatsappText": "I'm interested in Jumbo Drinker",
+    "specifications": {
+      "Bird Capacity": "50 - 70 Birds",
+      "Water System": "Auto Filling",
+      "Drinker Type": "Nipple Drinker",
+      "Mounting": "Hanging Type",
+      "Accessories": "Hook, Clamp & Rope",
+      "Application": "Grower & Breeder Birds",
+      "Material": "High-Quality Plastic"
+    },
+    "keyFeatures": [
+      "Automatic water filling system reduces manual labor",
+      "Hygienic nipple drinking mechanism prevents airborne dust contamination",
+      "Durable suspension design avoids floor clutter and keeps litter dry",
+      "High-quality plastic construction is resistant to medicines and acids",
+      "Optimized flow rate suitable for grower and breeder hens"
+    ]
+  },
+  "chick-drinker": {
+    "name": "Chick Drinker",
+    "category": "Poultry Water Drinker",
+    "shortDescription": "Semi-automatic 3L chick drinker with 2-way stand, designed for 50-70 chicks.",
+    "longDescription": "Designed specifically for young chicks, the Chick Drinker features a shallow water channel and stable 2-way plastic stand to prevent drowning or spilling. With a 3-liter capacity, this drinker ensures baby chicks in broiler farms have easy, safe access to water during their critical brooding stage.",
+    "image": "images/chick_drinker.jpeg",
+    "whatsappText": "I'm interested in Chick Drinker",
+    "specifications": {
+      "Bird Capacity": "50 - 70 Chicks",
+      "Water Capacity": "3 Liters",
+      "Type": "Semi-Automatic",
+      "Material": "High-Quality Plastic",
+      "Stand Type": "2-Way Plastic Stand",
+      "Application": "Chicks",
+      "Farm Type": "Broiler Farm"
+    },
+    "keyFeatures": [
+      "Perfect size and shallow lip prevents chick drowning",
+      "3-liter storage minimizes daily refilling cycles",
+      "Semi-automatic gravity flow refills the saucer tray naturally",
+      "Vibrant color stimulates drinking behavior in young chicks",
+      "Lightweight plastic body makes cleaning and relocation simple"
+    ]
+  },
+  "chick-feeder": {
+    "name": "Chick Feeder",
+    "category": "Poultry Feeder",
+    "shortDescription": "Controlled gravity-fed feeder designed to reduce feed waste and maintain feed hygiene.",
+    "longDescription": "The Chick Feeder is essential for providing food to baby chicks in a clean, controlled, and accessible way. It prevents chicks from stepping into the feed, which significantly reduces contamination and feed spillage. Suitable for tray, trough, and gravity setups.",
+    "image": "images/chick_feeder.jpeg",
+    "whatsappText": "I'm interested in Chick Feeder",
+    "specifications": {
+      "Product Type": "Chick Feed Dispenser",
+      "Feeder Types": "Tray, Trough, Tube/Gravity, or Automatic styles",
+      "Material": "Food-Grade, High-Durability Plastic",
+      "Application": "Baby Chicks (Day-old onwards)",
+      "Waste Prevention": "Anti-scratch guards and small eating ports"
+    },
+    "keyFeatures": [
+      "Reduces feed wastage by preventing scratching and spilling",
+      "Maintains feed hygiene by blocking chick droppings",
+      "Highly visible colors encourage chicks to find feed quickly",
+      "Smooth surfaces allow for fast, easy cleaning and disinfection",
+      "Keeps feed dry and fresh in the brooder"
+    ]
+  },
+  "turbo-feeder": {
+    "name": "Turbo Feeder",
+    "category": "Poultry Feeder",
+    "shortDescription": "Circular pan-shaped gravity feeder designed for commercial broiler and layer chicks.",
+    "longDescription": "The Turbo Feeder is a modern poultry feeding pan engineered to maximize feed accessibility while keeping wastage to a minimum. Featuring a circular design, it allows multiple chicks to feed simultaneously from all angles, ensuring uniform flock growth. The gravity-fed mechanism automatically releases feed as it is consumed.",
+    "image": "images/turbo_feeder.jpeg",
+    "whatsappText": "I'm interested in Turbo Feeder",
+    "specifications": {
+      "Product Name": "Turbo Feeder",
+      "Feeder Shape": "Circular Pan design",
+      "Feed Flow": "Automatic Gravity Flow",
+      "Material": "Heavy-Duty UV-Stabilized Plastic",
+      "Application": "Broiler & Layer Chicks",
+      "Spillage Control": "Anti-spill lip design"
+    },
+    "keyFeatures": [
+      "Pan allows 360-degree feeding access for multiple chicks",
+      "Anti-waste lip ring prevents feed from being scraped out",
+      "Promotes uniform growth by giving all chicks equal feed access",
+      "Robust plastic body is highly shatterproof and durable",
+      "Easy to clean, stack, and refill"
+    ]
+  },
+  "grower-feeder": {
+    "name": "Grower Feeder",
+    "category": "Poultry Feeder",
+    "shortDescription": "Large capacity feeder for growing chickens aged 6 to 18 weeks.",
+    "longDescription": "The Grower Feeder is a heavy-duty poultry feeder designed for growing chickens after the chick stage. Suitable for birds aged 6 to 18 weeks, it holds a larger quantity of feed to reduce labor. Available in hanging and tube gravity structures to accommodate multiple birds feeding together.",
+    "image": "images/chick_feeder.jpeg",
+    "whatsappText": "I'm interested in Grower Feeder",
+    "specifications": {
+      "Bird Age": "Growers (6 - 18 Weeks)",
+      "Feeder Capacity": "High capacity storage container",
+      "Body Material": "Reinforced Plastic / Galvanized Iron",
+      "Types": "Hanging, Tube Gravity, or Automatic systems",
+      "Application": "Broiler and Layer grower farms"
+    },
+    "keyFeatures": [
+      "Supports healthy growth during the critical development stage",
+      "Adjustable feed flow rate prevents overflow",
+      "Hanging configuration keeps feed clean and off the ground",
+      "Sturdy construction resists wear from larger, growing birds",
+      "Saves feeding labor and minimizes feed spillage costs"
+    ]
+  },
+  "grower-drinker-liter": {
+    "name": "Grower Drinker (Liter Type)",
+    "category": "Poultry Water Drinker",
+    "shortDescription": "Gravity-flow drinker available in various liter capacities for growing chickens.",
+    "longDescription": "The Grower Drinker is a gravity-fed poultry waterer designed for growing chickens (6 to 18 weeks). Made from durable plastic, it stores water in an upper container which flows automatically into the saucer tray. Suitable for broilers and layers, it keeps water clean and prevents contamination.",
+    "image": "images/grower_drinker_5l.jpeg",
+    "whatsappText": "I'm interested in Grower Drinker Liter Type",
+    "specifications": {
+      "Product Name": "Grower Drinker (Gravity)",
+      "Capacities": "3L, 5L, 8L, and 10L options available",
+      "Material": "High-Grade Durable Plastic",
+      "Water Dispensing": "Automatic gravity-feed flow",
+      "Application": "Growers (6 to 18 Weeks)",
+      "Bird Type": "Broilers and Layers"
+    },
+    "keyFeatures": [
+      "Provides continuous fresh water supply without electricity",
+      "Sealed container prevents dust and litter from contaminating water",
+      "Strong handle for easy lifting, carrying, and hanging",
+      "Dismantles completely for fast and thorough sanitization",
+      "Stable saucer base reduces water spillage"
+    ]
+  },
+  "chick-feed-tray": {
+    "name": "Chick Feed Tray",
+    "category": "Poultry Feeder",
+    "shortDescription": "Shallow, flat feed tray designed for newly hatched chicks (0-7 days).",
+    "longDescription": "The Chick Feed Tray is a shallow and wide feeding container designed specifically for newly hatched chicks during their first week of life. Its flat profile makes feed highly visible and easily accessible, allowing chicks to learn feeding behaviors quickly without getting trapped or injured.",
+    "image": "images/chick_feed_tray.jpeg",
+    "whatsappText": "I'm interested in Chick Feed Tray",
+    "specifications": {
+      "Product Name": "Chick Feed Tray",
+      "Recommended Age": "0 to 7 Days (Newly hatched chicks)",
+      "Design": "Flat, wide profile with low edges",
+      "Material": "Food-Grade, Lightweight Plastic / GI",
+      "Cleaning": "Washable and Stackable"
+    },
+    "keyFeatures": [
+      "Extremely easy access for tiny day-old chicks",
+      "Flat, shallow base helps chicks learn to forage and eat quickly",
+      "Lightweight yet sturdy enough to prevent flipping",
+      "Space-saving stackable design for storage",
+      "Easy to clean and sanitize after use"
+    ]
+  },
+  "jumbo-deluxe-drinker": {
+    "name": "Jumbo Deluxe Drinker",
+    "category": "Poultry Water Drinker",
+    "shortDescription": "Large jumbo-size drinking cup with leak-resistant design for automatic lines.",
+    "longDescription": "The Jumbo Deluxe Drinker is a premium-grade automatic poultry water cup. Featuring a durable plastic body, leak-resistant connectors, and an optimized cup size, it provides a clean, continuous supply of water. Perfect for automated watering lines in commercial farms and backyard bird setups alike.",
+    "image": "images/Jumbo_deluxe_drinker.jpeg",
+    "whatsappText": "I'm interested in Jumbo Deluxe Drinker",
+    "specifications": {
+      "Product Name": "Jumbo Deluxe Drinker",
+      "Suitability": "Broilers, Growers, Layers, Ducks, and Gamebirds",
+      "Water System": "Low-pressure / Automatic drinking line systems",
+      "Color": "High-visibility Red cup, Black connector, Blue pipe",
+      "Material": "Premium Quality Virgin Plastic",
+      "Conn Type": "Threaded connection prevents leaks"
+    },
+    "keyFeatures": [
+      "Large jumbo-sized drinking cup accommodates multiple birds",
+      "Automatic refilling triggers when birds drink, reducing labor",
+      "Leak-resistant valve design keeps litter dry and sanitary",
+      "Maintains continuous fresh water availability for healthy birds",
+      "High-quality plastic construction resists farm chemicals and wear",
+      "Simple to clean and snap-install onto automatic lines"
+    ]
   }
 };
