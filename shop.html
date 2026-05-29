@@ -45,9 +45,13 @@
     <div class="container">
       
       <!-- Filters -->
-      <!-- Filters -->
-      <div class="shop-filters" style="display: none;">
-        <!-- Filters hidden as we have a unified list now -->
+      <div class="shop-filters">
+        <button class="filter-btn active" data-filter="all">All Products</button>
+        <button class="filter-btn" data-filter="hens">Hens</button>
+        <button class="filter-btn" data-filter="cages">Cages</button>
+        <button class="filter-btn" data-filter="equipment">Equipment</button>
+        <button class="filter-btn" data-filter="feed">Feed</button>
+        <button class="filter-btn" data-filter="services">Services</button>
       </div>
 
       <!-- Product Grid -->
@@ -57,8 +61,9 @@
         <div class="product-card" data-category="hens">
           <img src="images/bv380.png" alt="BV380 Hen" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">BV380 Hen</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Premium quality BV380 hens available.</p>
+            <span class="product-badge">Hens</span>
+            <h3>BV380 Hen</h3>
+            <p>Premium quality BV380 hens available.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=bv380" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20BV380%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -70,8 +75,9 @@
         <div class="product-card" data-category="hens">
           <img src="images/bv300.png" alt="Bv300 Hen" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Bv300 Hen</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Premium quality BV300 hens available.</p>
+            <span class="product-badge">Hens</span>
+            <h3>Bv300 Hen</h3>
+            <p>Premium quality BV300 hens available.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=bv300" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Bv300%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -83,8 +89,9 @@
         <div class="product-card" data-category="cages">
           <img src="images/cage.jpeg" alt="Layer cages" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Layer cages</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Durable and space-efficient layer cages.</p>
+            <span class="product-badge">Cages</span>
+            <h3>Layer cages</h3>
+            <p>Durable and space-efficient layer cages.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=layer-cages" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Layer%20cages" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -94,12 +101,13 @@
 
         <!-- Item 4 -->
         <div class="product-card" data-category="equipment">
-          <div style="height:250px; background:var(--primary-bg); display:flex; align-items:center; justify-content:center; color:var(--primary-color); font-size:4rem;" class="product-img">
+          <div style="height:220px; background:#FAF7F3; display:flex; align-items:center; justify-content:center; color:var(--primary-color); font-size:4rem;" class="product-img">
             <i class="fa-solid fa-tractor"></i>
           </div>
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Poultry equipments</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">All kinds of essential poultry equipments.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Poultry equipments</h3>
+            <p>All kinds of essential poultry equipments.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=poultry-equipments" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20equipments" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -111,8 +119,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/baby_chick_drinker.jpeg" alt="Baby Chick Drinker" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Baby Chick Drinker</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">A compact 500 ml poultry waterer designed for up to 10 chicks.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Baby Chick Drinker</h3>
+            <p>A compact 500 ml poultry waterer designed for up to 10 chicks.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=baby-chick-drinker" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Baby%20Chick%20Drinker" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -124,8 +133,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/jumbo_drinker.jpeg" alt="Deluxe Drinker" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Deluxe Drinker</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Automatic nipple hanging drinker designed for 50-80 birds.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Deluxe Drinker</h3>
+            <p>Automatic nipple hanging drinker designed for 50-80 birds.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=deluxe-drinker" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Deluxe%20Drinker" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -137,8 +147,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/grower_drinker_3l.jpeg" alt="Grower Drinker - 3 Liter" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Grower Drinker - 3L</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Semi-automatic 3L drinker with a 2-way stand and lock system.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Grower Drinker - 3L</h3>
+            <p>Semi-automatic 3L drinker with a 2-way stand and lock system.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=grower-drinker-3l" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Grower%20Drinker%203%20Liter" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -150,8 +161,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/jumbo_drinker.jpeg" alt="Jumbo Drinker" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Jumbo Drinker</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Auto-filling nipple drinker for 50-70 grower & breeder birds.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Jumbo Drinker</h3>
+            <p>Auto-filling nipple drinker for 50-70 grower & breeder birds.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=jumbo-drinker" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Jumbo%20Drinker" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -163,8 +175,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/chick_drinker.jpeg" alt="Chick Drinker" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Chick Drinker</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Semi-automatic 3L chick drinker with 2-way plastic stand.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Chick Drinker</h3>
+            <p>Semi-automatic 3L chick drinker with 2-way plastic stand.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=chick-drinker" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Chick%20Drinker" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -176,8 +189,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/chick_feeder.jpeg" alt="Chick Feeder" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Chick Feeder</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Controlled gravity-fed feeder designed to reduce feed waste.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Chick Feeder</h3>
+            <p>Controlled gravity-fed feeder designed to reduce feed waste.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=chick-feeder" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Chick%20Feeder" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -189,8 +203,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/turbo_feeder.jpeg" alt="Turbo Feeder" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Turbo Feeder</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Circular pan-shaped gravity feeder for broiler and layer chicks.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Turbo Feeder</h3>
+            <p>Circular pan-shaped gravity feeder for broiler and layer chicks.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=turbo-feeder" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Turbo%20Feeder" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -202,8 +217,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/chick_feeder.jpeg" alt="Grower Feeder" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Grower Feeder</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Large capacity feeder designed for growing chickens (6-18 weeks).</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Grower Feeder</h3>
+            <p>Large capacity feeder designed for growing chickens (6-18 weeks).</p>
             <div class="product-buttons">
               <a href="product-details.html?id=grower-feeder" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Grower%20Feeder" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -215,8 +231,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/grower_drinker_5l.jpeg" alt="Grower Drinker (Liter Type)" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Grower Drinker (Liter Type)</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Gravity-flow drinker available in various liter capacities.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Grower Drinker (Liter Type)</h3>
+            <p>Gravity-flow drinker available in various liter capacities.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=grower-drinker-liter" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Grower%20Drinker%20Liter%20Type" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -228,8 +245,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/chick_feed_tray.jpeg" alt="Chick Feed Tray" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Chick Feed Tray</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Shallow, flat feed tray designed for newly hatched chicks (0-7 days).</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Chick Feed Tray</h3>
+            <p>Shallow, flat feed tray designed for newly hatched chicks (0-7 days).</p>
             <div class="product-buttons">
               <a href="product-details.html?id=chick-feed-tray" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Chick%20Feed%20Tray" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -241,8 +259,9 @@
         <div class="product-card" data-category="equipment">
           <img src="images/Jumbo_deluxe_drinker.jpeg" alt="Jumbo Deluxe Drinker" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Jumbo Deluxe Drinker</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Large automatic water cup with leak-resistant threaded connector.</p>
+            <span class="product-badge">Equipment</span>
+            <h3>Jumbo Deluxe Drinker</h3>
+            <p>Large automatic water cup with leak-resistant threaded connector.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=jumbo-deluxe-drinker" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Jumbo%20Deluxe%20Drinker" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -254,8 +273,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Poultry Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Poultry Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Nutrient-rich feed for poultry.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Poultry Feed</h3>
+            <p>Nutrient-rich feed for poultry.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=poultry-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -267,8 +287,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Cattle Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Cattle Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">High-quality feed for cattle.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Cattle Feed</h3>
+            <p>High-quality feed for cattle.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=cattle-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Cattle%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -280,8 +301,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Sheep and Goat Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Sheep and Goat Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Nutritious feed for sheep and goats.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Sheep and Goat Feed</h3>
+            <p>Nutritious feed for sheep and goats.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=sheep-goat-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Sheep%20and%20Goat%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -293,8 +315,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Pig Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Pig Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Quality feed formulated for pigs.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Pig Feed</h3>
+            <p>Quality feed formulated for pigs.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=pig-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Pig%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -306,8 +329,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Broiler Ready Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Broiler Ready Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Ready-to-use feed for broilers.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Broiler Ready Feed</h3>
+            <p>Ready-to-use feed for broilers.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=broiler-ready-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Broiler%20Ready%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -319,8 +343,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Layer Ready Feed" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Layer Ready Feed</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Optimal ready feed for layers.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Layer Ready Feed</h3>
+            <p>Optimal ready feed for layers.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=layer-ready-feed" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Layer%20Ready%20Feed" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -332,8 +357,9 @@
         <div class="product-card" data-category="feed">
           <img src="assets/feed.png" alt="Concentrate" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">Concentrate</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">High-quality feed concentrate.</p>
+            <span class="product-badge">Feed</span>
+            <h3>Concentrate</h3>
+            <p>High-quality feed concentrate.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=concentrate" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Concentrate" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
@@ -345,8 +371,9 @@
         <div class="product-card" data-category="services">
           <img src="images/egg.jpeg" alt="Poultry services" class="product-img">
           <div class="product-info">
-            <h3 style="margin-top: 15px;">All kinds of Poultry services etc...</h3>
-            <p style="color:#666; font-size:0.9rem; margin-bottom:15px; flex-grow: 1;">Comprehensive farm management and support.</p>
+            <span class="product-badge">Services</span>
+            <h3>All kinds of Poultry services etc...</h3>
+            <p>Comprehensive farm management and support.</p>
             <div class="product-buttons">
               <a href="product-details.html?id=poultry-services" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20services" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
