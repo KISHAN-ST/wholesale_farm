@@ -380,6 +380,7 @@ header {
   border-radius: var(--border-radius);
   overflow: hidden;
   box-shadow: var(--shadow-subtle);
+  border: 1px solid rgba(0, 0, 0, 0.05);
   transition: var(--transition);
   display: flex;
   flex-direction: column;
@@ -388,13 +389,22 @@ header {
 .product-card:hover {
   transform: translateY(-5px);
   box-shadow: var(--shadow-hover);
+  border-color: rgba(218, 91, 42, 0.2);
+}
+
+.product-card:hover .product-img {
+  transform: scale(1.03);
 }
 
 .product-img {
-  height: 250px;
+  height: 220px;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
+  background-color: #FDFBF7;
+  padding: 20px;
   border-radius: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  transition: transform 0.4s ease;
 }
 
 .product-info {
