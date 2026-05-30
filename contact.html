@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us | S K Groups</title>
+  <meta name="description" content="Get in touch with S K Groups. Send an enquiry for live layer hens, galvanized GI cages, nutritious feed, and farming equipment in Davanagere, Karnataka.">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.0.4">
 </head>
 <body>
 
@@ -17,7 +18,7 @@
   <header>
     <div class="container nav-container">
       <a href="index.html" class="logo">
-        <img src="images/logo.svg" alt="S K Groups Logo" style="height: 60px;">
+        <img src="images/logo.svg" alt="S K Groups Logo">
       </a>
       <nav class="nav-links">
         <a href="index.html">Home</a>
@@ -26,7 +27,7 @@
         <a href="contact.html" class="active">Contact</a>
       </nav>
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-btn" aria-label="Toggle navigation" style="display: none; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer;">
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
@@ -40,107 +41,151 @@
     </div>
   </section>
 
-  <!-- Contact Section -->
+  <!-- Contact Split Grid Section -->
   <section class="section-padding">
-    <div class="container contact-wrapper">
-      
-      <!-- Contact Info -->
-      <div class="contact-info">
-        <h3>Contact Information</h3>
-        <p>Feel free to reach out to us directly or visit our farm. We're open Monday to Saturday, 8:00 AM to 6:00 PM.</p>
+    <div class="container">
+      <div class="contact-split-grid">
         
-        <div class="contact-method">
-          <i class="fa-solid fa-location-dot"></i>
-          <div>
-            <h4>Farm Address</h4>
-            <p>S K Groups,<br>Doggalli Avaragolla Rd,<br>Avaragolla, Karnataka 577589</p>
+        <!-- Left Side: Info & Map -->
+        <div class="contact-split-info">
+          <h3>Contact Information</h3>
+          <p style="color: var(--text-muted); margin-bottom: 40px; font-size: 1rem; line-height: 1.6;">Feel free to reach out to us directly or visit our farm. We're open Monday to Saturday, 8:00 AM to 6:00 PM.</p>
+          
+          <div class="contact-method">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <h4>Farm Address</h4>
+              <p>S K Groups,<br>Doggalli Avaragolla Rd,<br>Avaragolla, Davanagere, Karnataka 577589</p>
+            </div>
           </div>
-        </div>
-        
-        <div class="contact-method">
-          <i class="fa-solid fa-phone"></i>
-          <div>
-            <h4>Phone</h4>
-            <p>+91 99649 23811</p>
+          
+          <div class="contact-method">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 99649 23811</p>
+            </div>
+          </div>
+
+          <div class="contact-method">
+            <i class="fa-brands fa-whatsapp"></i>
+            <div>
+              <h4>WhatsApp Support</h4>
+              <p>Available 24/7 for urgent queries</p>
+              <a href="https://wa.me/919964923811" target="_blank" style="color: var(--accent-color); font-weight: 700; text-decoration: underline;">Chat with us</a>
+            </div>
+          </div>
+          
+          <div class="contact-method">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <h4>Email Address</h4>
+              <p>skgroups@example.com</p>
+            </div>
+          </div>
+
+          <!-- Embedded Map -->
+          <div class="map-embed-wrapper">
+            <iframe 
+              src="https://maps.google.com/maps?q=Avaragolla,%20Davanagere,%20Karnataka&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+              width="100%" 
+              height="100%" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
         </div>
 
-        <div class="contact-method">
-          <i class="fa-brands fa-whatsapp" style="color: #25D366;"></i>
-          <div>
-            <h4>WhatsApp Support</h4>
-            <p>Available 24/7 for urgent queries</p>
-            <a href="https://wa.me/919964923811" target="_blank" style="color: var(--accent-color); font-weight: 600; text-decoration: underline;">Chat with us</a>
-          </div>
+        <!-- Right Side: Enquiry Form -->
+        <div class="contact-split-form">
+          <h3>Send an Enquiry</h3>
+          <form id="enquiryForm" onsubmit="submitForm(event)">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" class="form-control" placeholder="John Doe" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="product">Product Interest</label>
+              <select id="product" class="form-control" required>
+                <option value="" disabled selected>Select a product category</option>
+                <option value="Live Hens">Live Hens</option>
+                <option value="Poultry Cages">Poultry Cages</option>
+                <option value="Feed">Nutritional Feed</option>
+                <option value="Equipment">Farm Equipment</option>
+                <option value="Bulk Order">Bulk Order / Multiple</option>
+              </select>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message / Requirements</label>
+              <textarea id="message" class="form-control" placeholder="Please specify quantity or any specific requirements..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-accent" style="width: 100%;">Send via WhatsApp</button>
+          </form>
         </div>
         
-        <div class="contact-method">
-          <i class="fa-solid fa-envelope"></i>
-          <div>
-            <h4>Email Address</h4>
-            <p>skgroups@example.com</p>
-          </div>
-        </div>
       </div>
-
-      <!-- Enquiry Form -->
-      <div class="contact-form">
-        <h3>Send an Enquiry</h3>
-        <form id="enquiryForm" action="#" method="POST" onsubmit="submitForm(event)">
-          <div class="form-group">
-            <label for="name">Full Name</label>
-            <input type="text" id="name" class="form-control" placeholder="John Doe" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" class="form-control" placeholder="+91 98765 43210" required>
-          </div>
-          
-          <div class="form-group">
-            <label for="product">Product Interest</label>
-            <select id="product" class="form-control" required style="cursor: pointer;">
-              <option value="" disabled selected>Select a product category</option>
-              <option value="Live Hens">Live Hens</option>
-              <option value="Poultry Cages">Poultry Cages</option>
-              <option value="Feed">Nutritional Feed</option>
-              <option value="Equipment">Farm Equipment</option>
-              <option value="Bulk Order">Bulk Order / Multiple</option>
-            </select>
-          </div>
-          
-          <div class="form-group">
-            <label for="message">Message / Requirements</label>
-            <textarea id="message" class="form-control" placeholder="Please specify quantity or any specific requirements..." required></textarea>
-          </div>
-          
-          <button type="submit" class="btn btn-accent" style="width: 100%;">Send via WhatsApp</button>
-        </form>
-      </div>
-
     </div>
   </section>
 
-  <!-- Map Section -->
-  <section style="height: 400px; width: 100%;">
-    <iframe 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d112111.45892556272!2d77.12351283726715!3d28.58330752538104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1689100000000!5m2!1sen!2sin" 
-      width="100%" 
-      height="100%" 
-      style="border:0;" 
-      allowfullscreen="" 
-      loading="lazy" 
-      referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
-  </section>
-
-  <!-- FAB -->
-  <a href="https://wa.me/919964923811" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/919964923811" target="_blank" class="fab" aria-label="Chat on WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>S K Groups</h3>
+          <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and highly reliable.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Our Products</h3>
+          <ul>
+            <li><a href="shop.html?category=hens">BV380 & BV300 Hens</a></li>
+            <li><a href="shop.html?category=cages">Layer Cages</a></li>
+            <li><a href="shop.html?category=feed">Premium Feeds</a></li>
+            <li><a href="shop.html?category=equipment">Poultry Equipments</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Doggalli Avaragolla Rd, Avaragolla, Karnataka 577589</li>
+            <li><i class="fa-solid fa-phone"></i> +91 99649 23811</li>
+            <li><i class="fa-solid fa-envelope"></i> skgroups@example.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
         &copy; 2026 S K Groups. All rights reserved.
       </div>
     </div>

@@ -4,16 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Details | S K Groups</title>
+  <meta name="description" content="View technical specifications, features, and descriptions of poultry solutions from S K Groups. Contact us for bulk pricing.">
   
-  <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
-  
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.0.4">
 </head>
 <body>
 
@@ -21,18 +18,16 @@
   <header>
     <div class="container nav-container">
       <a href="index.html" class="logo">
-        <img src="images/logo.svg" alt="S K Groups Logo" style="height: 60px;">
+        <img src="images/logo.svg" alt="S K Groups Logo">
       </a>
-      
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="shop.html" class="active">Shop</a>
         <a href="about.html">About Us</a>
         <a href="contact.html">Contact</a>
       </nav>
-      
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-btn" aria-label="Toggle navigation" style="display: none; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer;">
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
@@ -45,6 +40,7 @@
         <i class="fa-solid fa-arrow-left"></i> Back to Shop
       </a>
       
+      <!-- Product Details Container -->
       <div id="product-container" class="details-wrapper" style="display: none;">
         <div class="details-grid">
           <!-- Left Column: Image -->
@@ -87,10 +83,10 @@
       </div>
       
       <!-- Error Message -->
-      <div id="error-container" class="details-wrapper" style="display: none; text-align: center; padding: 60px 20px;">
-        <i class="fa-solid fa-triangle-exclamation" style="font-size: 4rem; color: var(--accent-color); margin-bottom: 20px;"></i>
-        <h2 style="margin-bottom: 15px;">Product Not Found</h2>
-        <p style="color: #666; margin-bottom: 30px;">The product you are looking for does not exist or may have been removed.</p>
+      <div id="error-container" class="details-wrapper" style="display: none; text-align: center; padding: 80px 20px;">
+        <i class="fa-solid fa-triangle-exclamation" style="font-size: 4rem; color: var(--accent-color); margin-bottom: 24px;"></i>
+        <h2 style="margin-bottom: 16px; color: var(--primary-color);">Product Not Found</h2>
+        <p style="color: var(--text-muted); margin-bottom: 30px; font-size: 1.05rem;">The product you are looking for does not exist or may have been removed.</p>
         <a href="shop.html" class="btn btn-primary">Return to Shop</a>
       </div>
     </div>
@@ -104,7 +100,47 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h3>S K Groups</h3>
+          <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and highly reliable.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="shop.html">Shop Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Our Products</h3>
+          <ul>
+            <li><a href="shop.html?category=hens">BV380 & BV300 Hens</a></li>
+            <li><a href="shop.html?category=cages">Layer Cages</a></li>
+            <li><a href="shop.html?category=feed">Premium Feeds</a></li>
+            <li><a href="shop.html?category=equipment">Poultry Equipments</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fa-solid fa-location-dot"></i> Doggalli Avaragolla Rd, Avaragolla, Karnataka 577589</li>
+            <li><i class="fa-solid fa-phone"></i> +91 99649 23811</li>
+            <li><i class="fa-solid fa-envelope"></i> skgroups@example.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
         &copy; 2026 S K Groups. All rights reserved.
       </div>
     </div>

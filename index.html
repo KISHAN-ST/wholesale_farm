@@ -14,7 +14,7 @@
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=1.0.4">
 </head>
 <body>
 
@@ -22,7 +22,7 @@
   <header>
     <div class="container nav-container">
       <a href="index.html" class="logo">
-        <img src="images/logo.svg" alt="S K Groups Logo" style="height: 60px;">
+        <img src="images/logo.svg" alt="S K Groups Logo">
       </a>
       
       <nav class="nav-links">
@@ -33,128 +33,214 @@
       </nav>
       
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-btn" aria-label="Toggle navigation" style="display: none; background: none; border: none; font-size: 1.5rem; color: var(--primary-color); cursor: pointer;">
+      <button class="mobile-menu-btn" aria-label="Toggle navigation">
         <i class="fa-solid fa-bars"></i>
       </button>
     </div>
   </header>
 
-  <!-- Hero Section -->
+  <!-- Dynamic Asymmetric Hero Section -->
   <section class="hero">
     <div class="hero-overlay"></div>
-    <div class="container hero-content">
-      <h1>Greetings from<br>S K Groups</h1>
-      <p>Avaragolla, Davanagere, Karnataka. We are BV380 and BV300 Birds, Cages, Feed supplier and all kinds of poultry services.</p>
-      <div class="hero-buttons">
-        <a href="shop.html" class="btn btn-accent">Explore Products</a>
-        <a href="contact.html" class="btn btn-primary" style="background: white; color: var(--primary-color);">Bulk Enquiry</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Featured Categories -->
-  <section class="categories section-padding">
-    <div class="container">
-      <div class="section-title">
-        <h2>What We Offer</h2>
-        <p>Comprehensive solutions for all your poultry farming needs</p>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fa-solid fa-star"></i> Leading Supplier in Karnataka
+        </div>
+        <h1>Premium Poultry <span>Solutions</span> Direct From Farm</h1>
+        <p>Avaragolla, Davanagere, Karnataka. We supply healthy layers, heavy-duty cages, nutritional feeds, and professional veterinary services for your business growth.</p>
+        <div class="hero-buttons">
+          <a href="shop.html" class="btn btn-accent">Explore Products</a>
+          <a href="contact.html" class="btn btn-outline">Bulk Enquiry</a>
+        </div>
       </div>
       
-      <div class="categories-grid">
-        <!-- Item 1 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>BV380 Hen</h3>
-        </div>
-        <!-- Item 2 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Bv300 Hen</h3>
-        </div>
-        <!-- Item 3 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Layer cages</h3>
-        </div>
-        <!-- Item 4 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Poultry equipments</h3>
-        </div>
-        <!-- Item 5 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Poultry Feed</h3>
-        </div>
-        <!-- Item 6 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Cattle Feed</h3>
-        </div>
-        <!-- Item 7 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Sheep and Goat Feed</h3>
-        </div>
-        <!-- Item 8 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Pig Feed</h3>
-        </div>
-        <!-- Item 9 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Broiler Ready Feed</h3>
-        </div>
-        <!-- Item 10 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Layer Ready Feed</h3>
-        </div>
-        <!-- Item 11 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>Concentrate</h3>
-        </div>
-        <!-- Item 12 -->
-        <div class="category-card">
-           <i class="fa-solid fa-check-circle"></i>
-           <h3>All kinds of Poultry services etc...</h3>
+      <!-- Showcase Highlight Card -->
+      <div class="hero-showcase">
+        <span class="showcase-tag">Flock Highlight</span>
+        <img src="images/bv380.png" alt="BV380 Hen">
+        <h3 class="showcase-title">BV380 Layer Hen</h3>
+        <p class="showcase-desc">High yield bird with exceptional feed conversion ratios, ideal for commercial egg laying.</p>
+        <div class="showcase-action">
+          <span class="showcase-price">Top Choice</span>
+          <a href="product-details.html?id=bv380" class="showcase-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Trust Section -->
-  <section class="trust-section">
-    <div class="container trust-flex">
-      <div class="trust-content">
-        <h2>Why Choose S K Groups?</h2>
-        <p>With over 10 years of experience, we provide end-to-end poultry solutions. We believe in quality, transparency, and supporting farmers.</p>
-        <ul>
-          <li><i class="fa-solid fa-check-circle"></i> 100% Vaccinated & Healthy Birds</li>
-          <li><i class="fa-solid fa-check-circle"></i> Direct Farm Pricing (No Middlemen)</li>
-          <li><i class="fa-solid fa-check-circle"></i> Pan-India Safe Delivery</li>
-          <li><i class="fa-solid fa-check-circle"></i> 24/7 Expert Farm Support</li>
-        </ul>
-        <a href="about.html" class="btn btn-primary" style="margin-top: 20px;">Read Our Story</a>
+  <!-- Floating Stats Overlay -->
+  <div class="container stats-overlay-container">
+    <div class="stats-overlay">
+      <div class="stat-box">
+        <h3>10+</h3>
+        <p>Years Experience</p>
       </div>
-      <div class="trust-stats">
-        <div class="stat-box">
-          <h3>10+</h3>
-          <p>Years Experience</p>
+      <div class="stat-box">
+        <h3>5000+</h3>
+        <p>Happy Farmers</p>
+      </div>
+      <div class="stat-box">
+        <h3>50k+</h3>
+        <p>Birds Delivered</p>
+      </div>
+      <div class="stat-box">
+        <h3>100%</h3>
+        <p>Vaccination Rate</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Our Core Offerings</h2>
+        <p>Comprehensive, high-grade solutions tailored for commercial farm development</p>
+      </div>
+      
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-egg"></i>
+          </div>
+          <h3>BV380 & BV300 Layers</h3>
+          <p>Superbly healthy, robust laying stocks certified clean of pathogens. Fully vaccinated according to stringent timelines.</p>
+          <a href="shop.html?category=hens" class="service-link">View Layers <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="stat-box">
-          <h3>5000+</h3>
-          <p>Happy Farmers</p>
+        
+        <!-- Service Card 2 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-border-all"></i>
+          </div>
+          <h3>GI Layer Cages</h3>
+          <p>Hot-dip galvanized tier cage arrays engineered to reduce egg crack rates, improve bird safety, and ease collection.</p>
+          <a href="shop.html?category=cages" class="service-link">Explore Cages <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="stat-box">
-          <h3>50k+</h3>
-          <p>Birds Delivered</p>
+        
+        <!-- Service Card 3 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-wheat-awn"></i>
+          </div>
+          <h3>Formulated Feed</h3>
+          <p>Scientific ration blends, broiler starters, layer crumbles, and high-protein concentrate supplements.</p>
+          <a href="shop.html?category=feed" class="service-link">View Feed <i class="fa-solid fa-arrow-right"></i></a>
         </div>
-        <div class="stat-box">
-          <h3>100%</h3>
-          <p>Quality Guarantee</p>
+        
+        <!-- Service Card 4 -->
+        <div class="service-card">
+          <div class="service-icon-box">
+            <i class="fa-solid fa-faucet-drip"></i>
+          </div>
+          <h3>Farm Equipment</h3>
+          <p>Automated gravity drinkers, nipple water systems, feed trays, and heavy-duty circular turbo feeders.</p>
+          <a href="shop.html?category=equipment" class="service-link">View Equipment <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section-padding why-section">
+    <div class="container why-grid">
+      <div class="why-image-wrapper">
+        <img src="assets/hero.png" alt="S K Groups Poultry Operations">
+        <div class="why-floating-badge">
+          <i class="fa-solid fa-award"></i>
+          <div>
+            <h4>Bio-Safe</h4>
+            <p>Certified Poultry Farms</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="why-content">
+        <h2>Pioneering Safe & Profitable Poultry Farming</h2>
+        <p>S K Groups stands as a beacon of reliability for thousands of farmers. We leverage decade-long expertise to streamline farm management and livestock yields.</p>
+        
+        <div class="why-list">
+          <div class="why-item">
+            <div class="why-num">01</div>
+            <div>
+              <h4>Direct Farm Pricing</h4>
+              <p>Eliminate mid-party pricing markups and enjoy pure wholesale rates on feeds, birds, and cages.</p>
+            </div>
+          </div>
+          
+          <div class="why-item">
+            <div class="why-num">02</div>
+            <div>
+              <h4>Integrated Veterinary Consulting</h4>
+              <p>Get professional disease prevention designs and farm immunization program layout charts from our certified vets.</p>
+            </div>
+          </div>
+          
+          <div class="why-item">
+            <div class="why-num">03</div>
+            <div>
+              <h4>Safe Pan-India Transport</h4>
+              <p>Specially modified ventilation fleets deliver live stocks to your farm gate, safeguarding chick health.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Accordion Section -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-title">
+        <h2>Frequently Asked Questions</h2>
+        <p>Get answers to common poultry farm management and order inquiries</p>
+      </div>
+      
+      <div class="faq-accordion">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4>What is the difference between BV380 and BV300 laying hens?</h4>
+            <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-content">
+            <p>BV380 brown layers are widely known for producing dark brown eggs and have excellent resilience in warm climates. BV300 layers are highly productive white-egg laying birds focused on high feed conversion efficiency and consistent shell density. Both are fully vaccinated at our farm before sale.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4>How do automatic nipple drinkers reduce water wastage?</h4>
+            <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-content">
+            <p>Nipple drinkers release water only when pecked by the bird. This prevents open pools of water from being contaminated by dirt or tipped over onto the litter, maintaining dry coop conditions and reducing disease spread.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4>Can you customize cage arrays for specific barn sizes?</h4>
+            <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-content">
+            <p>Yes, S K Groups offers specialized consulting and installation. We design and structure GI layer cage arrays in 3-tier and 4-tier configurations based on your barn's dimensions and ventilation guidelines.</p>
+          </div>
+        </div>
+        
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <div class="faq-header">
+            <h4>Do you provide custom feed mixtures?</h4>
+            <div class="faq-icon"><i class="fa-solid fa-chevron-down"></i></div>
+          </div>
+          <div class="faq-content">
+            <p>We supply a wide range of standard pre-mixed starter, grower, and layer rations. For farmers who have access to local grains (like maize), we provide professional 30% or 35% feed Concentrate bags along with specific mixing formula cards to optimize costs.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -171,7 +257,7 @@
       <div class="footer-grid">
         <div class="footer-col">
           <h3>S K Groups</h3>
-          <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and reliable.</p>
+          <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and highly reliable.</p>
           <div class="social-links">
             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -192,17 +278,17 @@
         <div class="footer-col">
           <h3>Our Products</h3>
           <ul>
-            <li><a href="shop.html">BV380 & BV300 Hens</a></li>
-            <li><a href="shop.html">Layer Cages</a></li>
-            <li><a href="shop.html">Premium Feeds</a></li>
-            <li><a href="shop.html">Poultry Equipments</a></li>
+            <li><a href="shop.html?category=hens">BV380 & BV300 Hens</a></li>
+            <li><a href="shop.html?category=cages">Layer Cages</a></li>
+            <li><a href="shop.html?category=feed">Premium Feeds</a></li>
+            <li><a href="shop.html?category=equipment">Poultry Equipments</a></li>
           </ul>
         </div>
         
         <div class="footer-col">
           <h3>Contact Info</h3>
           <ul>
-            <li><i class="fa-solid fa-location-dot"></i> GV6G+5JH, Doggalli Avaragolla Rd, Avaragolla, Karnataka 577589</li>
+            <li><i class="fa-solid fa-location-dot"></i> Doggalli Avaragolla Rd, Avaragolla, Karnataka 577589</li>
             <li><i class="fa-solid fa-phone"></i> +91 99649 23811</li>
             <li><i class="fa-solid fa-envelope"></i> skgroups@example.com</li>
           </ul>
@@ -214,5 +300,15 @@
     </div>
   </footer>
 
+  <script src="script.js"></script>
+  <script>
+    // FAQ Accordion Script
+    document.querySelectorAll('.faq-header').forEach(header => {
+      header.addEventListener('click', () => {
+        const item = header.parentElement;
+        item.classList.toggle('active');
+      });
+    });
+  </script>
 </body>
 </html>
