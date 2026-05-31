@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css?v=1.0.4">
 </head>
-<body>
+<body class="shop-page">
 
   <!-- Header -->
   <header>
@@ -32,31 +32,27 @@
     </div>
   </header>
 
-  <!-- Page Header -->
-  <section class="page-header">
-    <div class="container">
-      <h1>Our Products</h1>
-      <p>Premium quality poultry solutions direct from our farm</p>
-    </div>
-  </section>
-
   <!-- Shop Section -->
-  <section class="section-padding">
+  <section class="section-padding shop-catalog" id="shop-catalog">
     <div class="container">
       
       <!-- Dashboard Filter Bar -->
       <div class="dashboard-filter-bar">
         <div class="dashboard-title-info">
+          <span class="section-kicker">Catalogue</span>
           <h2>Available Products</h2>
-          <span class="product-count-badge" id="productCount">23 Items</span>
+          <p>Filter by category to compare products with less scrolling.</p>
         </div>
-        <div class="shop-filters" style="margin-bottom: 0;">
-          <button class="filter-btn active" data-filter="all">All Products</button>
-          <button class="filter-btn" data-filter="hens">Hens</button>
-          <button class="filter-btn" data-filter="cages">Cages</button>
-          <button class="filter-btn" data-filter="equipment">Equipment</button>
-          <button class="filter-btn" data-filter="feed">Feed</button>
-          <button class="filter-btn" data-filter="services">Services</button>
+        <div class="shop-toolbar">
+          <span class="product-count-badge" id="productCount">26 Items</span>
+          <div class="shop-filters">
+            <button class="filter-btn active" data-filter="all">All Products</button>
+            <button class="filter-btn" data-filter="hens">Hens</button>
+            <button class="filter-btn" data-filter="cages">Cages</button>
+            <button class="filter-btn" data-filter="equipment">Equipment</button>
+            <button class="filter-btn" data-filter="feed">Feed</button>
+            <button class="filter-btn" data-filter="services">Services</button>
+          </div>
         </div>
       </div>
 
@@ -87,6 +83,30 @@
           </div>
         </div>
 
+        <!-- Item 2A -->
+        <div class="product-card" data-category="hens">
+          <img src="images/egg.jpeg" alt="BV380 Egg" class="product-img">
+          <div class="product-info">
+            <span class="product-badge">Eggs</span>
+            <h3>BV380 Egg</h3>
+            <p>Fresh BV380 layer eggs with strong shells and dependable brown color.</p>
+            <div class="product-specs-summary">
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Shell Color</span>
+                <span class="spec-summary-value">Brown</span>
+              </div>
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Supply Mode</span>
+                <span class="spec-summary-value">Wholesale</span>
+              </div>
+            </div>
+            <div class="product-buttons">
+              <a href="product-details.html?id=bv380-egg" class="btn btn-details">Details</a>
+              <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20BV380%20Egg" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+            </div>
+          </div>
+        </div>
+
         <!-- Item 2 -->
         <div class="product-card" data-category="hens">
           <img src="images/bv300.png" alt="Bv300 Hen" class="product-img">
@@ -107,6 +127,30 @@
             <div class="product-buttons">
               <a href="product-details.html?id=bv300" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Bv300%20Hen" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2B -->
+        <div class="product-card" data-category="hens">
+          <img src="images/egg.jpeg" alt="BV300 Egg" class="product-img">
+          <div class="product-info">
+            <span class="product-badge">Eggs</span>
+            <h3>BV300 Egg</h3>
+            <p>Fresh BV300 layer eggs with a clean shell finish and steady output.</p>
+            <div class="product-specs-summary">
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Shell Color</span>
+                <span class="spec-summary-value">White</span>
+              </div>
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Supply Mode</span>
+                <span class="spec-summary-value">Wholesale</span>
+              </div>
+            </div>
+            <div class="product-buttons">
+              <a href="product-details.html?id=bv300-egg" class="btn btn-details">Details</a>
+              <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20BV300%20Egg" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
             </div>
           </div>
         </div>
@@ -157,6 +201,30 @@
             <div class="product-buttons">
               <a href="product-details.html?id=poultry-equipments" class="btn btn-details">Details</a>
               <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Poultry%20equipments" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4A -->
+        <div class="product-card" data-category="equipment">
+          <img src="images/transportation_box.jpeg" alt="Transportation Box" class="product-img">
+          <div class="product-info">
+            <span class="product-badge">Equipment</span>
+            <h3>Transportation Box</h3>
+            <p>Durable poultry transport box for safe movement and handling of birds.</p>
+            <div class="product-specs-summary">
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Product Type</span>
+                <span class="spec-summary-value">Transport Crate</span>
+              </div>
+              <div class="spec-summary-item">
+                <span class="spec-summary-label">Feature</span>
+                <span class="spec-summary-value">Stackable</span>
+              </div>
+            </div>
+            <div class="product-buttons">
+              <a href="product-details.html?id=transportation-box" class="btn btn-details">Details</a>
+              <a href="https://wa.me/919964923811?text=I'm%20interested%20in%20Transportation%20Box" target="_blank" class="btn btn-primary"><i class="fa-brands fa-whatsapp"></i> Enquire</a>
             </div>
           </div>
         </div>
@@ -621,6 +689,33 @@
     </div>
   </section>
 
+  <section class="section-padding shop-intro">
+    <div class="container shop-intro-grid">
+      <div class="shop-intro-copy">
+        <span class="section-kicker">Browse by category</span>
+        <h2>Find stock faster with a cleaner, more focused layout.</h2>
+        <p>Use the category chips below to narrow the catalog, compare products at a glance, and move straight into enquiry when you find a match.</p>
+      </div>
+      <div class="shop-highlight-grid">
+        <article class="shop-highlight-card">
+          <i class="fa-solid fa-seedling"></i>
+          <h3>Farm-direct supply</h3>
+          <p>Reduce middlemen and buy directly from a poultry-focused supplier.</p>
+        </article>
+        <article class="shop-highlight-card">
+          <i class="fa-solid fa-clipboard-check"></i>
+          <h3>Clear product details</h3>
+          <p>Every card surfaces the key specs you need before opening full details.</p>
+        </article>
+        <article class="shop-highlight-card">
+          <i class="fa-brands fa-whatsapp"></i>
+          <h3>Fast follow-up</h3>
+          <p>Move from browsing to enquiry in one tap with the WhatsApp CTA.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
   <!-- FAB -->
   <a href="https://wa.me/919964923811" target="_blank" class="fab"><i class="fa-brands fa-whatsapp"></i></a>
 
@@ -632,9 +727,9 @@
           <h3>S K Groups</h3>
           <p>Your trusted partner for all poultry farming needs. Fresh, healthy, and highly reliable.</p>
           <div class="social-links">
-            <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/share/1DdkZFGR5d/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
             <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://youtube.com/@skgroups1031?si=DHdLFByPcZqqplw5" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
           </div>
         </div>
         

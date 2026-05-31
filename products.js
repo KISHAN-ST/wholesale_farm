@@ -22,6 +22,27 @@ const productsData = {
       "Sustained peak egg production for longer periods"
     ]
   },
+  "bv380-egg": {
+    "name": "BV380 Egg",
+    "category": "Hens",
+    "shortDescription": "Fresh BV380 layer eggs known for strong shells and dependable brown color.",
+    "longDescription": "BV380 eggs are produced from high-performing layer birds and are valued for their consistent size, attractive brown shell color, and strong shell quality. S K Groups supplies fresh BV380 eggs sourced from healthy, vaccinated birds to support reliable wholesale demand.",
+    "image": "images/egg.jpeg",
+    "whatsappText": "I'm interested in BV380 Egg",
+    "specifications": {
+      "Egg Type": "Layer Eggs",
+      "Shell Color": "Brown",
+      "Shelf Freshness": "Freshly collected",
+      "Average Size": "Medium to Large",
+      "Supply Mode": "Wholesale / Bulk"
+    },
+    "keyFeatures": [
+      "Consistent shell strength and attractive brown color",
+      "Suitable for wholesale egg buyers and retailers",
+      "Collected from healthy BV380 layer stock",
+      "Reliable supply for regular market demand"
+    ]
+  },
   "bv300": {
     "name": "Bv300 Hen",
     "category": "Hens",
@@ -42,6 +63,27 @@ const productsData = {
       "Low maintenance costs and high survival rate",
       "Optimized for standard cage farming setups",
       "High uniformity in flock development and weight"
+    ]
+  },
+  "bv300-egg": {
+    "name": "BV300 Egg",
+    "category": "Hens",
+    "shortDescription": "Fresh BV300 layer eggs with a clean shell finish and steady output.",
+    "longDescription": "BV300 eggs are the right choice for buyers looking for dependable layer eggs with a clean shell appearance and stable supply. S K Groups offers BV300 eggs sourced from well-managed birds and handled carefully to preserve quality during dispatch.",
+    "image": "images/egg.jpeg",
+    "whatsappText": "I'm interested in BV300 Egg",
+    "specifications": {
+      "Egg Type": "Layer Eggs",
+      "Shell Color": "White / Chalk White",
+      "Shelf Freshness": "Freshly collected",
+      "Average Size": "Medium to Large",
+      "Supply Mode": "Wholesale / Bulk"
+    },
+    "keyFeatures": [
+      "Clean, uniform eggs suitable for wholesale supply",
+      "Fresh collection and careful handling",
+      "Sourced from productive BV300 layers",
+      "Ideal for regular retail and bulk buyers"
     ]
   },
   "layer-cages": {
@@ -86,6 +128,27 @@ const productsData = {
       "Food-grade, UV-stabilized plastic prevents degradation from sunlight",
       "Hygienic layouts that prevent bacterial growth",
       "Easy to clean, dismantle, and relocate"
+    ]
+  },
+  "transportation-box": {
+    "name": "Transportation Box",
+    "category": "Equipment",
+    "shortDescription": "Durable poultry transportation box designed for safe bird movement and handling.",
+    "longDescription": "The Transportation Box is built for secure poultry handling during loading, moving, and delivery. Its ventilated structure helps reduce stress on birds while the strong body and easy-grip design make it practical for farm use and wholesale transport operations.",
+    "image": "images/transportation_box.jpeg",
+    "whatsappText": "I'm interested in Transportation Box",
+    "specifications": {
+      "Product Type": "Poultry Transport Crate",
+      "Material": "Heavy-duty plastic",
+      "Ventilation": "Side airflow slots",
+      "Use": "Bird movement and dispatch",
+      "Handling": "Lightweight and stackable"
+    },
+    "keyFeatures": [
+      "Helps transport birds with less stress and damage",
+      "Stackable design for efficient farm logistics",
+      "Durable construction for repeated use",
+      "Suitable for wholesale poultry handling"
     ]
   },
   "poultry-feed": {
