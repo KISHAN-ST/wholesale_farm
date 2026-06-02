@@ -91,12 +91,12 @@ const productsData = {
     "category": "Cages",
     "shortDescription": "Durable and space-efficient layer cages, hot-dip galvanized for a rust-free long life.",
     "longDescription": "Our layer cages are designed with advanced ergonomics to maximize bird comfort, egg hygiene, and waste management. Constructed from high-tensile, hot-dip galvanized steel wire, these cages prevent rusting and offer a long operational lifetime. Engineered to reduce egg breakage and streamline feeding, watering, and egg collection.",
-    "image": "images/cage.jpeg",
+    "image": "images/cage.png",
     "whatsappText": "I'm interested in Layer cages",
     "specifications": {
       "Material": "Hot-Dip Galvanized Iron (GI) Wire",
       "Structure": "3-Tier / 4-Tier A-Type & H-Type configurations",
-      "Capacity": "90 to 120 birds per unit set",
+      "Capacity": "As per customer need",
       "Watering System": "Automatic Nipple Drinkers with 360-degree flow",
       "Feeding Trough": "Durable, non-toxic GI / PVC feed troughs",
       "Durability": "Rust-free performance up to 15 years"
@@ -576,6 +576,28 @@ const productsData = {
       "Maintains continuous fresh water availability for healthy birds",
       "High-quality plastic construction resists farm chemicals and wear",
       "Simple to clean and snap-install onto automatic lines"
+    ]
+  },
+  "egg-tray": {
+    "name": "Egg Tray",
+    "category": "Equipment",
+    "shortDescription": "Durable, stackable egg tray for safe transport and storage.",
+    "longDescription": "Our egg trays are designed to protect eggs during collection, storage, and transport. Made from lightweight but sturdy material, they stack securely to save space and reduce breakage. Suitable for both retail and wholesale egg handling.",
+    "image": "images/egg tray.jpeg",
+    "whatsappText": "I'm interested in Egg Tray",
+    "specifications": {
+      "Material": "Recycled HDPE / Foam options",
+      "Capacity": "30 eggs per tray (standard)",
+      "Stackable": "Yes",
+      "Reusable": "Yes, easy to clean",
+      "Usage": "Collection, storage, and transport"
+    },
+    "keyFeatures": [
+      "Stackable design for compact storage and transit",
+      "Shock-absorbent cell structure to minimise breakage",
+      "Lightweight and easy to handle during packing",
+      "Hygienic surface, simple to wash and reuse",
+      "Available in different materials and colour options"
     ]
   }
 };
