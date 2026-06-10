@@ -27,7 +27,7 @@ const productsData = {
     "category": "Hens",
     "shortDescription": "Fresh BV380 layer eggs known for strong shells and dependable brown color.",
     "longDescription": "BV380 eggs are produced from high-performing layer birds and are valued for their consistent size, attractive brown shell color, and strong shell quality. S K Groups supplies fresh BV380 eggs sourced from healthy, vaccinated birds to support reliable wholesale demand.",
-    "image": "images/egg.jpeg",
+    "image": "images/bv380_egg.jpeg",
     "whatsappText": "I'm interested in BV380 Egg",
     "specifications": {
       "Egg Type": "Layer Eggs",
@@ -70,7 +70,7 @@ const productsData = {
     "category": "Hens",
     "shortDescription": "Fresh BV300 layer eggs with a clean shell finish and steady output.",
     "longDescription": "BV300 eggs are the right choice for buyers looking for dependable layer eggs with a clean shell appearance and stable supply. S K Groups offers BV300 eggs sourced from well-managed birds and handled carefully to preserve quality during dispatch.",
-    "image": "images/egg.jpeg",
+    "image": "images/bv300_egg.png",
     "whatsappText": "I'm interested in BV300 Egg",
     "specifications": {
       "Egg Type": "Layer Eggs",
@@ -303,7 +303,7 @@ const productsData = {
     "category": "Services",
     "shortDescription": "Professional farm consultation, vaccination, setup, and general troubleshooting.",
     "longDescription": "S K Groups doesn't just sell products; we partner with farmers. We offer comprehensive poultry services including farm layout planning, automatic system installations, veterinary consultations, vaccination tracking, and management training to ensure your poultry operation is highly profitable.",
-    "image": "images/egg.jpeg",
+    "image": "images/services-poultry.svg",
     "whatsappText": "I'm interested in Poultry services",
     "specifications": {
       "Services Offered": "Farm design, Vaccination schedule, Disease diagnosis, Tech Setup",
@@ -598,6 +598,51 @@ const productsData = {
       "Lightweight and easy to handle during packing",
       "Hygienic surface, simple to wash and reuse",
       "Available in different materials and colour options"
+    ]
+  },
+  "broiler-chicks": {
+    "name": "Broiler Chicks",
+    "category": "Hens",
+    "shortDescription": "Healthy day-old broiler chicks for fast and efficient meat production.",
+    "longDescription": "S K Groups supplies premium quality day-old broiler chicks sourced from certified parent flocks. Our birds are 100% vaccinated, healthy, and ready to be placed in your brooder house. Known for their rapid weight gain and excellent feed conversion, these chicks reach market weight in 35–42 days under proper management. Ideal for commercial broiler farms and small-scale growers alike.",
+    "image": "images/boiler-chick.jpeg",
+    "whatsappText": "I'm interested in Broiler Chicks",
+    "specifications": {
+      "Type": "Broiler (Meat Birds)",
+      "Age": "Day-old chicks",
+      "Vaccination": "100% vaccinated",
+      "Market Weight": "2.0 - 2.5 kg in 35-42 days",
+      "Feed Conversion Ratio": "1.8 - 2.0",
+      "Supply Mode": "Wholesale / Bulk"
+    },
+    "keyFeatures": [
+      "Rapid growth rate reaching market weight in 35-42 days",
+      "Excellent feed conversion ratio for cost-efficient farming",
+      "100% vaccinated and disease-free from certified parent flocks",
+      "Uniform flock quality for consistent market output",
+      "Available in bulk quantities for commercial broiler farms"
+    ]
+  },
+  "poultry-medicines": {
+    "name": "Poultry Medicines",
+    "category": "Medicine",
+    "shortDescription": "Essential veterinary medicines, vaccines, and supplements for healthy poultry management.",
+    "longDescription": "S K Groups provides a comprehensive range of poultry medicines, vaccines, and health supplements to support optimal bird health and productivity. Our medicine portfolio covers preventive care, disease treatment, and nutritional supplementation to help farmers maintain a healthy flock and minimize losses. All products are sourced from certified veterinary pharmaceutical companies.",
+    "image": "images/hen.jpeg",
+    "whatsappText": "I'm interested in Poultry Medicines",
+    "specifications": {
+      "Product Range": "Vaccines, Antibiotics, Vitamins, Electrolytes, Dewormers",
+      "Application": "Broilers, Layers, and Breeders",
+      "Form": "Oral solution, Powder, Injectable",
+      "Coverage": "Preventive care and disease treatment",
+      "Supply Mode": "Wholesale / Retail"
+    },
+    "keyFeatures": [
+      "Full range of preventive and curative poultry health products",
+      "Vaccines for Newcastle, Marek's, Gumboro, and other key diseases",
+      "Vitamin and electrolyte supplements for stress recovery",
+      "Sourced from certified veterinary pharmaceutical companies",
+      "Expert guidance on dosage and treatment schedules available"
     ]
   }
 };
